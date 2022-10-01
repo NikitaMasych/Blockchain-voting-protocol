@@ -1,4 +1,4 @@
-MAE-VOTING GOVERNMENT SCALE PROTOCOL
+# MAE-VOTING GOVERNMENT SCALE PROTOCOL
 
 * Product is developed for facilitating secure, transparent and fair e-voting, using blockchain. 
 
@@ -10,7 +10,7 @@ MAE-VOTING GOVERNMENT SCALE PROTOCOL
 
 * Solution has class Server which simply emulates required functions and storage, hence it can be implemented variously.
 
-Protocol description:
+# Protocol description:
 
 1. Check whether the user is eligible to vote.
 2. User creates symmetric key (AES_GBC) and encrypts his passportID, after that it gets hashed. - adress creation (privacy guarantee)
@@ -22,7 +22,7 @@ Protocol description:
 	* voted param is set to true when final block, including corresponding operation, gets added to blockchain
 7. After the end of the voting, server publishes private choice decryption key corresponding to particular user address to the open source. 
 
-This approach guarantees:
+# This approach guarantees:
 
 	• Eligibility: only legitimate voters can take part in voting.
 	• Unreusability: each voter can vote only once.
